@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.raistlin.swipeactions.SwipeActionsLayout
+        android:id="@+id/activity_actions_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:left_image="@drawable/ic_action_arrow_back"
+        app:right_image="@drawable/ic_action_arrow_forward">
+
+        <TextView
+            android:id="@+id/activity_actions_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+    </com.raistlin.swipeactions.SwipeActionsLayout>
+
+</RelativeLayout>
